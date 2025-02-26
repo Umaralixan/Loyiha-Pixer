@@ -1,0 +1,139 @@
+@media only screen and (max-width: 412px) {
+  .wrapper {
+    background-image: none;
+  }
+  .navbar__logo {
+    width: 128px;
+    height: 32px;
+  }
+  .navbar__list {
+    display: none;
+  }
+  .navbar__btn {
+    display: none;
+  }
+  .header {
+    background-image: none;
+    background-color: #014e56;
+  }
+  .burger__btn {
+    display: flex;
+  }
+  .intro {
+    height: 250px;
+    flex-direction: column;
+  }
+  .intro__title {
+    width: 220px;
+    color: #fff;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 100% */
+  }
+  .intro__hr {
+    display: none;
+  }
+  .intro__text {
+    width: 327px;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .intro__img {
+    display: inline-block;
+    margin-top: 70px;
+    width: 80%;
+  }
+  .intro__middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #014e56;
+  }
+
+  .build {
+    margin-top: 70px;
+  }
+  .manage {
+    flex-direction: column;
+  }
+  .manage__title {
+    margin-top: 150px;
+    font-weight: 700;
+
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+  }
+  .right__card {
+    margin-top: 10px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .right__title {
+    width: 327px;
+    font-size: 18px;
+  }
+  .right__text {
+    width: 327px;
+  }
+  .manage__right {
+    margin-top: 100px;
+  }
+
+  .company {
+    margin-top: 100px;
+    padding-bottom: 100px;
+  }
+  .result__title {
+    width: 327px;
+    font-size: 32px;
+  }
+
+  .result__cards {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .ready {
+    width: 51.5%;
+  }
+
+  .ready__box {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .ready__title {
+    width: 327px;
+    font-size: 32px;
+  }
+  .ready__btn {
+    margin-top: 20px;
+  }
+
+  .footer__box {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .footer__list {
+    text-align: center;
+  }
+  .footer__logo-text {
+    font-size: 30px;
+  }
+
+  .footer__home {
+    font-size: 12px;
+  }
+  .footer__home-text {
+    margin-right: 30px;
+  }
+}
